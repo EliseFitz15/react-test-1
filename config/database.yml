@@ -1,0 +1,16 @@
+development: &default
+  host: localhost
+  adapter: postgresql
+  database: ef-duels-reactjs_development
+  encoding: utf8
+  min_messages: warning
+  pool: 5
+  timeout: 5000
+
+test:
+  <<: *default
+  database: ef-duels-reactjs_test
+
+production:
+  <<: *default
+  database: ef-duels-reactjs_production

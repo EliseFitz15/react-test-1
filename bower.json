@@ -1,0 +1,34 @@
+{
+  "name": "react-js-test",
+  "authors": [
+    "Elise Fitzgerald <elise.fitzgerald15@gmail.com>"
+  ],
+  "description": "LA JS-framework duels test one with react-js",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "sinatra",
+    "react",
+    "ruby",
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/vendor/javascripts"
+  ],
+  "dependencies": {
+    "babel": "*",
+    "react": "^0.14.7",
+    "jquery": "components/jquery#^2.2.0",
+    "marked": "^0.3.5",
+    "jasmine-core": "^2.4.1",
+    "jasmine-ajax": "^3.2.0"
+  }
+}
